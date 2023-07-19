@@ -1,0 +1,12 @@
+.fx{
+    display: flex;
+}
+.fa{
+    align-items: center;
+}
+.jc{
+    justify-content: center;
+}
+.jb{
+    justify-content: space-between;
+}

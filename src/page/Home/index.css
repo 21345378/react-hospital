@@ -1,0 +1,171 @@
+.search-container{
+    margin-top: 25px;
+}
+.search-wrapper{
+    position: relative;
+    width: 800px;
+}
+.serach-input{
+    padding: 14px 21px 20px 24px;
+    width: 100%;
+    border: 0;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.1);
+}
+.ant-input{
+    padding-left: 10px !important;
+}
+.search-btn{
+    z-index: 999;
+    position: absolute;
+    top: 16px;
+    right: 8px;
+    font-size: 16px;
+}
+
+.page-bottom{
+    margin: 0 auto;
+    width: 1280px;
+}
+.page-bottom .left{
+    float: left;
+    width: calc(100% - 250px);
+}
+.page-bottom .right{
+    float: right;
+    width: 250px;
+}
+.page-bottom .left .title{
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 30px;
+}
+.page-bottom .left .label{
+    color: #ccc;
+}
+.page-bottom .left .filter-wrapper .wrapper-list-item{
+    display: inline-block;
+    height: 30px;
+    padding: 0 0 10px 26px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.page-bottom .left .filter-wrapper .active{
+    color: #4490f1;
+}
+.page-bottom .left .filter-wrapper:nth-child(2) {
+    margin-top: 20px;
+}
+.page-bottom .left-scroll-list .list-item{
+    width: 440px;
+    height: 120px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}  
+.page-bottom .left-scroll-list .v-card{
+    margin-left: 8px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.04);
+    border-radius: 4px;
+    transition: all .3s ease;
+}
+.page-bottom .left-scroll-list .v-card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.24);
+}
+.page-bottom .list-item-content{
+    padding: 0 10px 0 20px;
+    height: 100%;
+}
+.page-bottom .hospital-title{
+    height: 42px;
+    font-weight: 500;
+    align-items: center;
+    transition: all .2s ease;
+    width: 100%;
+}
+.page-bottom .hospital-bottom{
+    margin-top: 20px;
+}
+.page-bottom .list-item-wrapper{
+    height: 76px;
+    color: #333;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: normal;
+    flex: 1;
+}
+.page-bottom .icon-wrapper-name{
+    margin-left: 4px;
+    color: #999;
+    font-size: 14px;
+}
+.page-bottom  .hospital-image{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-left: 12px;
+    transition: all .2s linear;
+    background: red;
+}
+
+
+
+/*中间的右部*/
+.page-bottom .right .nosocomium-office{
+    margin-top: 15px;
+}
+.page-bottom .right .header-wrapper-title{
+    letter-spacing: 1px;
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+}
+.page-bottom .right  .content-wrapper{
+    margin-top: 20px;
+    flex-wrap: wrap;
+    line-height: 31px;
+    margin-left: -15px;
+}
+.page-bottom .right .content-wrapper .nosocomium-item{
+    margin-left: 30px;
+    width: 70px;
+    text-align: center;
+}
+.space{
+    margin-left: 26px;
+    margin-top: 40px
+}
+.right .title-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: #f2f8ff;
+    font-size: 20px;
+    color: #7eabff;
+    margin-right: 10px;
+}
+.notice-wrapper{
+    /* position: relative; */
+}
+.notice-wrapper .notice-point{
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 10px; */
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #7eabff;
+}
+.notice-wrapper .notice-content{
+    margin-left: 7px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-break: break-all;
+    width: 100%;
+}

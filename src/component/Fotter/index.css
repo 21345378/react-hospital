@@ -1,0 +1,18 @@
+.footer-container{
+    margin-top: 20px;
+    font-size: 12px;
+    background: #fafafa;
+    height: 50px;
+    line-height: 50px;
+    min-width: 1200px;
+}
+.footer-container .phone{
+    margin-left: 30px;
+}
+.footer-container .footer-right{
+    width: 396px;
+}
+.footer-container .footer-right .fotter-right-main{
+    width: 100%;
+    justify-content: space-around
+}

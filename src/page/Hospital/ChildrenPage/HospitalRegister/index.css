@@ -1,0 +1,56 @@
+
+.hospital-register{
+    padding-top: 38px;
+    letter-spacing: 1px;
+}
+
+.hospital-register .title{
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.hospital-register .sub-title{
+    color: #999;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.sub-title::before{
+    content: '';
+    height: 14px;
+    width: 4px;
+    background: #4990f1;
+    margin-right: 6px;
+    border-radius: 2px;
+}
+
+.card-content{
+    padding: 8px 16px;
+}
+.user-card:hover{
+    cursor: pointer;
+    box-shadow: 0 4px 20px 0 #0000000a
+}
+.el-form{
+    margin-left: 140px;
+    margin-top: 20px;
+    color: #999;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.el-form .label{
+
+    padding-right: 24px;
+    color:#999
+}
+.el-form  .el-form-item{
+    height: 40px;
+    line-height: 40px;
+}
+.el-form  .el-form-content{
+    color: #333;
+}

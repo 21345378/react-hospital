@@ -1,0 +1,10 @@
+.notice-info {
+    padding-top: 38px;
+    color: #333;
+    height: calc(100% - 170px);
+}
+.label{
+    text-indent: 2rem;
+    color: #666;
+    margin-bottom: 10px;
+}

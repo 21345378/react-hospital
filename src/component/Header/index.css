@@ -1,0 +1,14 @@
+.header-container{
+    position:fixed;
+    width: 100%;
+    z-index: 1000;
+    background: #fff;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+    height: 70px;
+}
+.left-wrapper{
+
+}
+.right-wrapper{
+    width: 166px;
+}

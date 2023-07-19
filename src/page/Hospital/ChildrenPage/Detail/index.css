@@ -1,0 +1,109 @@
+.title-wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.hospital-title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 14px;
+} 
+ .hospital-level{
+    margin-top: 3px;
+}
+ .icon-wrapper{
+    color: #999;
+}
+.detail-info{
+    padding-top: 38px;
+    color: #333;
+    height: calc(100% - 170px);
+}
+
+.detail-info .info-wrapper{
+    margin-top: 30px;
+    padding-top: 0;
+    padding-left: 0;
+    width: 100%;
+    flex-direction: inherit;
+}
+.detail-info .hospital-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    background-color: red;
+}
+.content-wrapper{
+    flex: 1;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+.label{
+    color: #999;
+}
+.space{
+    margin-left: 60px;
+}
+.rule-list{
+    margin-top: 8px;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    min-height: 20px;
+    padding: 0;
+    background: none;
+}
+.hospital-detail .select-title{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 16px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.hospital-detail .select-left{
+    max-width: 460px;
+    width: 170px;
+    background-color: #f4f9ff;
+}
+.hospital-detail .select-right{
+    margin-left: 50px;
+    width: calc(100% - 170px);
+} 
+.hospital-detail .select-left-wrapper{
+    padding: 8px 0;
+}
+.list-wrapper-item{
+    padding: 10px;
+    cursor: pointer;
+}
+.item-select{
+    background-color: #ffffff;
+}
+.select-right .sub-dept-container{
+    padding: 20px 0 20px 30px;
+    border-radius: 4px;
+}
+.sub-title{
+    position: relative;
+    height: 20px;
+    font-weight: 700;
+    color: #333;
+}
+.sub-title::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: -16px;
+    width: 4px;
+    height: 100%;
+    background-color: #4990f1;
+}
+.sub-item-wrapper{
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.sub-item{
+    width: 230px;
+    margin-top: 10px;
+    padding-right: 30px
+}
