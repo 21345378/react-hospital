@@ -37,7 +37,7 @@ const AddClientPerson:React.FC = () =>{
 
 const FormPersonInfo:React.FC = () =>{
   return(
-    <>
+    <> 
       <div className="el-form">
         <div className="el-form-item fx fa">
           <label className='label'>就诊日期:</label>
