@@ -1,3 +1,4 @@
+// 使用 tsc --init  来进行默认文件的配置
 {
   "compilerOptions": {
     "target": "es5",
@@ -22,5 +23,5 @@
   },
   "include": [
     "src"
-  ]
+  ],
 }
